@@ -1,0 +1,11 @@
+Below are the requirements.
+
+Node js must be installed. (Check using node --version). If not installed follow https://nodejs.org/en/download/
+
+A DB cluster should be created in MongoDB. If not confugured, please follow below steps
+Steps:
+Login to https://www.mongodb.com/ and create an ID
+Create DB and cluster and follow connect->connect to application, we will get a connection string (ex: mongodb+srv://kavyashree:<password>@cluster0.33hkf.mongodb.net/myFirstDatabase?retryWrites=true&w=majority)
+to be added in our code.
+
+

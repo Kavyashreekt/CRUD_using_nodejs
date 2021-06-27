@@ -1,0 +1,21 @@
+Below is how to use the API's for confugured
+
+
+CREATE:
+Launch http://localhost:3000/addnewuser - Enter ID, Firstname, Lastname and click on Submit. User will be created and if success "User saved to database" will be diplayed.
+READ:
+Launch http://localhost:3000/getdataall - This displays all User data present in DB
+Launch http://localhost:3000/getdata - Enter UserID and hit submit. USer data will be displayed. This is to read specific user data based on input(ID)
+UPDATE:
+Launch http://localhost:3000/updatefirstname -Enter UserID(esisting) and Firstname(To be updated to) and submit. If update is success, "Updated database" will be displayed.
+DELETE:
+LAunch http://localhost:3000/deletebyID - Enter UserID of data to be deleted and hit submit. If delete is succes, "User deleted" message will be displayed.
+
+
+For the ease of use, I have create home.html page with includes all these linking.
+Lanch home.html. This has links created.
+CREATE - To create user, links to http://localhost:3000/addnewuser
+READALL - To read the DB, links to http://localhost:3000/getdataall
+READbyID - To read specific user data, links to http://localhost:3000/getdata
+UPDATE - To Update user data, links to http://localhost:3000/updatefirstname
+DELETE - To delete user, links to http://localhost:3000/deletebyID

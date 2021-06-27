@@ -1,0 +1,19 @@
+CREATE:
+1. IDnum=1, firstname=Kavya, secondname=Shree
+2. IDnum=2, firstname=Mahesh, secondname=R
+3. IDnum=3. firstname=Meena, secondname=M
+
+Snap of DB: Testresults/CREATE.JPG
+
+READ:
+1. READALL - for snapshot (Testresults/READALL.JPG)
+2. READbyID - Data entered 1, output - Testresults/READbyID.JPG
+
+UPDATE:
+ID to be updated : 2, firstName : Naveen
+After this, READbyID to confirm it is updated (Testresults/UPDATE.JPG)
+
+DELETE:
+ID to be deleted : 3, confirm
+After this, READALL to confirm record is deleted (Testresults/DELETE.JPG)
+
